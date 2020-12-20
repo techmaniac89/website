@@ -15,7 +15,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>{config.title}</h1>
-        <pre>{config.subtitle}</pre>
+        {config.subtitles.map((element) => { return (<p>{element}</p>); })}
       </div>
     </div>
     <nav>

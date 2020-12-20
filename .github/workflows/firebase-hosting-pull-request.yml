@@ -16,5 +16,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEF_BATAS_WEBSITE }}'
           projectId: lef-batas-website
+          channelId: live  
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
